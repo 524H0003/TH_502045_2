@@ -10,7 +10,7 @@
 
         public int Quantity { get; set; }
 
-        public decimal UnitAmount { get; set; }
+        public uint UnitAmount { get; set; }
 
         public virtual Order Order { get; set; }
 
